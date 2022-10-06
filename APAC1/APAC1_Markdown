@@ -1,5 +1,5 @@
 # Memoria del projecte APAC1
-### Sobre el codi de les activitats
+### Sobre el codi de les activitats:
 
 Desde el MainActivity mediante el Id de cada elemento de la interficie accedemos a los mismos para capturar el botón i guardar la información que el usuario pone para 
 logearse.
@@ -7,6 +7,13 @@ Desde el MainScreen también con el Id mostramos el nombre del usuario que acaba
 
 Para la navegación entre actividades hemos utilizado Intent para pasar la información a MainScreen y que este la muestre.
 
-### Sobre el fitxer Manifest
+### Sobre el fitxer Manifest:
 
+Aparecen 2 actividades en el Manifest
 ![Image text](https://github.com/TomasCB4/PMDM_Memories/blob/main/APAC1/MD1.PNG)
+
+Si android:exported es verdadero otras aplicaciones pueden invocar el servicio o interactuar con el, en el caso de que sea falso no podrán.
+
+### Sobre les traduccions realitzades:
+
+Aparecen dos nuevos archivos que contienen los string que modificamos en el idioma indicado.
