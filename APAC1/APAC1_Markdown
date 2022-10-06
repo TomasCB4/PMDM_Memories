@@ -1,0 +1,11 @@
+# Memoria del projecte APAC1
+### Sobre el codi de les activitats
+
+Desde el MainActivity mediante el Id de cada elemento de la interficie accedemos a los mismos para capturar el botón i guardar la información que el usuario pone para 
+logearse.
+Desde el MainScreen también con el Id mostramos el nombre del usuario que acaba de logearse.
+
+Para la navegación entre actividades hemos utilizado Intent para pasar la información a MainScreen y que este la muestre.
+
+### Sobre el fitxer Manifest
+
